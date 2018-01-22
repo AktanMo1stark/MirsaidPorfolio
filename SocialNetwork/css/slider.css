@@ -1,0 +1,32 @@
+#project {
+  margin-top: -60px;
+  padding: 0;
+  background: #fff;
+}
+#project h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "RobotoBold" , sans-serif;
+
+}
+
+
+
+.imgs img {
+  width: 100%;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.6s;
+}
+
+.imgs img:hover {
+  opacity: 1;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0px;
+}
+
+/* Fade in animation */

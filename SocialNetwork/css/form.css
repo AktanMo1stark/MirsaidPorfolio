@@ -1,0 +1,59 @@
+.form {
+  margin-top: -21px;
+  background: #0B1741;
+  padding-bottom: 60px;
+}
+.form h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "RobotoBold" , sans-serif;
+  padding: 40px;
+  font-size: 25px;
+  color: white;
+}
+.form .leftForm {
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+.form .leftForm input {
+  background: transparent;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0 5px;
+}
+.form .leftForm textarea {
+  height: 200px;
+  background: transparent;
+  width: 80%;
+  margin: 0 auto 0;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0 5px;
+  margin-left: 60px;
+  font-family: Arial;
+  padding: 5px 5px;
+}
+
+.form .leftForm input {
+  display: block;
+}
+.form .leftForm .btnSub {
+  opacity: 0.6;
+  width: 200px;
+  margin: 15px auto 0;
+  cursor: pointer;
+  border-radius: 0;
+  border: none;
+  height: 50px;
+  background: #34b3a0;
+  transition: opacity 0.5s;
+}
+.form .leftForm .btnSub:hover {
+  opacity: 1;
+}
